@@ -1,5 +1,5 @@
 {
-  "name": "server_webook_from_ringover_to_catsone",
+  "name": "server_webhook_from_ringover_to_catsone",
   "version": "1.0.0",
   "description": "Interface between ringover.com and catsone.com",
   "main": "index.js",
