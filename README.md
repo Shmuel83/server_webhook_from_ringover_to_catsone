@@ -27,6 +27,7 @@ You can modify this project to add other webhook of ringover, and other activiti
 
 ## Server
 ```
+apt install nodejs
 git clone https://github.com/Shmuel83/server_webhook_from_ringover_to_catsone.git
 cd server_webhook_from_ringover_to_catsone
 npm install
@@ -53,11 +54,15 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
-  -Enfin, vous devez démarrer le service
+  -Then to run service
 ```
 $ systemctl start server_webhook_from_ringover_to_catsone.service
 ```
+To test without service, in directory on project, write this
+```
+$ npm run start
+```
 
 ## Help
-Do you have a professional help with this project, develop more features ans fast ?
+Do you have a professional help with this project, develop more features and fast ?
 Contact me on https://www.malt.fr/profile/rodolphemoulin
