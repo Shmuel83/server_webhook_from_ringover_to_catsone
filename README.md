@@ -28,6 +28,7 @@ You can modify this project to add other webhook of ringover, and other activiti
 ## Server
 ```
 apt install nodejs
+apt install npm
 git clone https://github.com/Shmuel83/server_webhook_from_ringover_to_catsone.git
 cd server_webhook_from_ringover_to_catsone
 npm install
